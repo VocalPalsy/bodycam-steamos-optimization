@@ -191,7 +191,7 @@ DesiredScreenHeight=720
 
 ## 4. Benchmark Progression
 
-Tested on **2026 Steam Machine / AMD Zen 4 (8C/16T) + Navi 33 (RDNA 3 / 8GB VRAM) on LG 120Hz Display**:
+Tested on **SteamOS 3.8.16 (Kernel 6.16.12-valve) / AMD Custom Zen 4 (8C/16T) + Navi 33 (RDNA 3, 8GB VRAM) on LG 120Hz FreeSync Display**:
 
 | Milestone | Average FPS | 1% Lows | GPU Load | VRAM / GTT Spill | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
