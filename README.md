@@ -201,7 +201,8 @@ Tested on **SteamOS 3.8.16 (Kernel 6.16.12-valve) / AMD Custom Zen 4 (8C/16T) + 
 | **Iteration 2 (Nanite 4 & Async)** | **110.6 FPS** | 82.0 FPS | 100% | 7.4 GB / 2.1 GB GTT | FSR 4.1 async compute queues active |
 | **Iteration 3 (In-Match Raw)** | **89.1 FPS** | 72.4 FPS | 100% (saturated) | 7.4 GB / 2.0 GB GTT | GPU saturated during intense multiplayer combat |
 | **Iteration 4 (Initial 116 FPS Lock)** | **116.7 FPS** | **113.3 FPS** | **87% (13% headroom)**| **4.8 GB / 352 MB GTT** | **Flat FreeSync Pacing; Low-res potato baseline** |
-| **Iteration 5 (High Fidelity 120 FPS Lock)** | **119.3 FPS** | **118.8 FPS** | **80% (20% headroom)**| **5.4 GB / 248 MB GTT** | **Epic Textures + SSR 2 + Contact Shadows; Zero Fluctuation** |
+| **Iteration 5 (720p Native Lock)** | **119.3 FPS** | **118.8 FPS** | **80% (20% headroom)**| **5.4 GB / 248 MB GTT** | **Epic Textures + SSR 2 + Contact Shadows; Zero Fluctuation** |
+| **Iteration 6 (1080p FSR Quality Online)** | **112.0 FPS** | **100.4 FPS** | **69% (31% headroom)**| **5.3 GB / 234 MB GTT** | **NVMe SSD; Native 1080p Container; Triple-Digit 1% Lows in Live Match** |
 
 ---
 
