@@ -20,6 +20,6 @@ user_settings = {
     # Uncap external layer limiter so UE5 engine limiter governs FreeSync pacing
     "DXVK_FRAME_RATE": "0",
 
-    # Single-buffered swapchain to eliminate input latency
-    "VKD3D_SWAPCHAIN_LATENCY_FRAMES": "1",
+    # Double-buffered swapchain for smooth FSR Frame Generation pacing
+    "VKD3D_SWAPCHAIN_LATENCY_FRAMES": "2",
 }
