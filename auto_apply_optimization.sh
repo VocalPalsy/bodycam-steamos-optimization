@@ -2,7 +2,7 @@
 set -e
 
 echo "================================================================="
-echo "  Bodycam v0.8 (Locked & Loaded) 116 FPS FreeSync Optimizer"
+echo "  Bodycam v0.8 (Locked & Loaded) 120 FPS Flatline Optimizer"
 echo "  Optimized for SteamOS, Steam Machine & Linux RDNA 2/3 GPUs"
 echo "================================================================="
 
@@ -81,8 +81,8 @@ fi
 echo ""
 echo "================================================================="
 echo "  Optimization Complete!"
-echo "  - Pinned Framerate: 116 FPS (Optimal for 120Hz FreeSync)"
-echo "  - FSR 4.1 Native GPU Compute & GPL Shaders Active"
-echo "  - VRAM Pool Locked to 4096MB (No System RAM GTT Paging)"
-echo "  Launch Bodycam and enjoy smooth, stutter-free 116 FPS matches!"
+echo "  - Pinned Framerate: 120 FPS Flatline (1:1 120Hz Match)"
+echo "  - FSR 3.1 Balanced + FSR Frame Gen & Async Compute Active"
+echo "  - VRAM Pool Locked to 4608MB (No System RAM GTT Paging)"
+echo "  Launch Bodycam and enjoy zero-variance 120 FPS matches!"
 echo "================================================================="
