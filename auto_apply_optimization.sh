@@ -64,8 +64,10 @@ echo "  -> Engine.ini deployed and write-protected (chmod 444)."
 # 3. Update GameUserSettings.ini
 echo "[3/4] Updating scalability targets in GameUserSettings.ini..."
 GUS_INI="$COMPAT_DIR/GameUserSettings.ini"
+chmod +w "$GUS_INI" 2>/dev/null || true
 cp "$SCRIPT_DIR/GameUserSettings.ini" "$GUS_INI"
-echo "  -> GameUserSettings.ini deployed."
+chmod 444 "$GUS_INI"
+echo "  -> GameUserSettings.ini deployed and write-protected (chmod 444)."
 
 # 4. Check for and disable DirectML CPU fallback dll
 echo "[4/4] Auditing game binaries for DirectML CPU bottleneck..."
